@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "I+IpMtkkpaQ=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\belevy\\Documents\\GitHub\\IMGD-4000-Tutorials\\Tutorial_2\\Intermediate\\Build\\BuildRulesProjects\\Tutorial_2ModuleRules\\Tutorial_2ModuleRules.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\belevy\\Program Files\\Epic Games\\5.5\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\belevy\\Program Files\\Epic Games\\5.5\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\belevy\\Program Files\\Epic Games\\5.5\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\belevy\\Program Files\\Epic Games\\5.5\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\belevy\\Program Files\\Epic Games\\5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\belevy\\Program Files\\Epic Games\\5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\belevy\\Program Files\\Epic Games\\5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\belevy\\Program Files\\Epic Games\\5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

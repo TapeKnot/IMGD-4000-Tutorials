@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\belevy\\downloads\\tutorial_2\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorial_2\\uht\\testplayercontroller.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\belevy\\downloads\\tutorial_2\\intermediate\\build\\win64\\x64\\tutorial_2editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\belevy\\downloads\\tutorial_2\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorial_2\\definitions.tutorial_2.h",
+            "c:\\users\\belevy\\downloads\\tutorial_2\\source\\tutorial_2\\public\\testplayercontroller.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputlibrary.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\playermappablekeyslot.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\playermappablekeyslot.generated.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputlibrary.generated.h",
+            "c:\\users\\belevy\\downloads\\tutorial_2\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorial_2\\uht\\testplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
