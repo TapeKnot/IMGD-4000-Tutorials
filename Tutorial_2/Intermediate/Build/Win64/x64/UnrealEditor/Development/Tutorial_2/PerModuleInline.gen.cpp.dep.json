@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\belevy\\downloads\\tutorial_2\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorial_2\\permoduleinline.gen.cpp",
+        "Source": "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_2\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorial_2\\permoduleinline.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\belevy\\downloads\\tutorial_2\\intermediate\\build\\win64\\x64\\tutorial_2editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_2\\intermediate\\build\\win64\\x64\\tutorial_2editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\belevy\\downloads\\tutorial_2\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorial_2\\definitions.tutorial_2.h",
+            "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_2\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorial_2\\definitions.tutorial_2.h",
             "c:\\program files\\epic games\\5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
         ],
         "ImportedModules": [],
