@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TUTORIAL_2_SpherePawn_generated_h
 
-#define FID_Users_belevy_Documents_GitHub_IMGD_4000_Tutorials_Tutorial_2_Source_Tutorial_2_Public_SpherePawn_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_Users_belevy_Documents_GitHub_IMGD_4000_Tutorials_Tutorial_2_Source_Tutorial_2_Public_SpherePawn_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASpherePawn(); \
 	friend struct Z_Construct_UClass_ASpherePawn_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(ASpherePawn)
 
 
-#define FID_Users_belevy_Documents_GitHub_IMGD_4000_Tutorials_Tutorial_2_Source_Tutorial_2_Public_SpherePawn_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Users_belevy_Documents_GitHub_IMGD_4000_Tutorials_Tutorial_2_Source_Tutorial_2_Public_SpherePawn_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ASpherePawn(ASpherePawn&&); \
@@ -35,12 +35,12 @@ public: \
 	NO_API virtual ~ASpherePawn();
 
 
-#define FID_Users_belevy_Documents_GitHub_IMGD_4000_Tutorials_Tutorial_2_Source_Tutorial_2_Public_SpherePawn_h_13_PROLOG
-#define FID_Users_belevy_Documents_GitHub_IMGD_4000_Tutorials_Tutorial_2_Source_Tutorial_2_Public_SpherePawn_h_16_GENERATED_BODY \
+#define FID_Users_belevy_Documents_GitHub_IMGD_4000_Tutorials_Tutorial_2_Source_Tutorial_2_Public_SpherePawn_h_14_PROLOG
+#define FID_Users_belevy_Documents_GitHub_IMGD_4000_Tutorials_Tutorial_2_Source_Tutorial_2_Public_SpherePawn_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_belevy_Documents_GitHub_IMGD_4000_Tutorials_Tutorial_2_Source_Tutorial_2_Public_SpherePawn_h_16_INCLASS_NO_PURE_DECLS \
-	FID_Users_belevy_Documents_GitHub_IMGD_4000_Tutorials_Tutorial_2_Source_Tutorial_2_Public_SpherePawn_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Users_belevy_Documents_GitHub_IMGD_4000_Tutorials_Tutorial_2_Source_Tutorial_2_Public_SpherePawn_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Users_belevy_Documents_GitHub_IMGD_4000_Tutorials_Tutorial_2_Source_Tutorial_2_Public_SpherePawn_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

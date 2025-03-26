@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "GameFramework/FloatingPawnMovement.h"
 
 void MoveForward(float Amount);
 void MoveRight(float Amount);
@@ -24,6 +25,7 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	UFloatingPawnMovement* PawnMovement;
 
 public:	
 	// Called every frame

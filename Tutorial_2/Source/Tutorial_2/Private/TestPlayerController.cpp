@@ -4,6 +4,7 @@
 #include "TestPlayerController.h"
 #include <EnhancedInputSubsystems.h>
 #include <EnhancedInputComponent.h>
+#include "ProjectileActor.h"
 
 void ATestPlayerController::BeginPlay() {
 	Super::BeginPlay();
@@ -19,6 +20,8 @@ void ATestPlayerController::BeginPlay() {
 	if (EnhancedInputSubsystem) {
 		EnhancedInputSubsystem->AddMappingContext(InputMappingContext, 0);
 	}
+
+	ProjectileSpeed = 10.f;
 }
 
 // Set up player input.
@@ -31,6 +34,7 @@ void ATestPlayerController::SetupInputComponent() {
 
 	// Bind the MoveAction to the Move method
 	EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &ATestPlayerController::Move);
+	EnhancedInputComponent->BindAction(FireAction, ETriggerEvent::Triggered, this, &ATestPlayerController::Fire);
 }
 
 void ATestPlayerController::Move(const FInputActionValue& InputActionValue) {
@@ -51,4 +55,15 @@ void ATestPlayerController::Move(const FInputActionValue& InputActionValue) {
 		ControlPawn->AddMovementInput(ForwardDirection, InputAxisVector.Y);
 		ControlPawn->AddMovementInput(RightDirection, InputAxisVector.X);
 	}
+}
+
+void ATestPlayerController::Fire()
+{
+	FVector loc = GetActorLocation();
+	loc.Z += 100.f;
+	loc.y += 50.f;
+
+	AProjectileActor* a = GetWorld()->SpawnActor<AProjectileActor>(loc, GetControlRotation());
+
+	a->Speed = ProjectileSpeed;
 }
