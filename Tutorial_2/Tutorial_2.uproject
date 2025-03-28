@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{F73A8F50-4459-396F-C618-6BB21767B1DC}",
+	"EngineAssociation": "{D21CA69A-437C-25DF-0056-24BE4C3A88AF}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "Tutorial_2",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [

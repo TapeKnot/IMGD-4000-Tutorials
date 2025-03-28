@@ -1,0 +1,35 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_2\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorial_2\\uht\\spherecontroller.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_2\\intermediate\\build\\win64\\x64\\tutorial_2editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_2\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorial_2\\definitions.tutorial_2.h",
+            "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_2\\source\\tutorial_2\\public\\spherecontroller.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputsubsystems.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputsubsysteminterface.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedplayerinput.h",
+            "c:\\program files\\epic games\\5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerinput.h",
+            "c:\\program files\\epic games\\5.5\\engine\\source\\runtime\\engine\\public\\gesturerecognizer.h",
+            "c:\\program files\\epic games\\5.5\\engine\\source\\runtime\\engine\\public\\keystate.h",
+            "c:\\program files\\epic games\\5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerinput.generated.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputaction.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputmodifiers.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputactionvalue.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputactionvalue.generated.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputmodifiers.generated.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputtriggers.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputtriggers.generated.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputaction.generated.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedplayerinput.generated.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\playermappablekeyslot.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\playermappablekeyslot.generated.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputsubsysteminterface.generated.h",
+            "c:\\program files\\epic games\\5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputsubsystems.generated.h",
+            "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_2\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorial_2\\uht\\spherecontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -5,7 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_2/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_2/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_2/Content/TestLevel.umap",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_2/Content/Move.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_2/Content/IMC.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_2/Content/BP_SphereController.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_2/Content/Blueprints/SphereGameMode.uasset"
 			]
 		}
 	]

@@ -11,6 +11,7 @@
     <None Include="..\..\Source\Tutorial_2Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -37,6 +38,24 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\Tutorial_2\Tutorial_2.h">
       <Filter>Source\Tutorial_2</Filter>
+    </ClCompile>
+    <Filter Include="Source\Tutorial_2\Private">
+      <UniqueIdentifier>{90C35095-FC25-3DAB-A7AC-71326AE2BFC0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tutorial_2\Private\SphereController.cpp">
+      <Filter>Source\Tutorial_2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tutorial_2\Private\SpherePawn.cpp">
+      <Filter>Source\Tutorial_2\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Tutorial_2\Public">
+      <UniqueIdentifier>{DE861B83-7F23-3610-B0BE-A5C6D33BD974}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tutorial_2\Public\SphereController.h">
+      <Filter>Source\Tutorial_2\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tutorial_2\Public\SpherePawn.h">
+      <Filter>Source\Tutorial_2\Public</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
