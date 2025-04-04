@@ -34,6 +34,13 @@ public:
 	void Fire(const FInputActionValue& InputActionValue);
 	void FireLaser(const FInputActionValue& InputActionValue);
 
+	FCollisionQueryParams cqp;
+	FHitResult hr;
+
+	UFUNCTION(BlueprintNativeEvent)
+	void HitSomething(class UStaticMeshComponent* m);
+	void HitSomething_Implementation(class UStaticMeshComponent* m);
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

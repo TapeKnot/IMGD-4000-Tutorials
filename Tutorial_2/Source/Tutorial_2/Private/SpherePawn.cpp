@@ -88,4 +88,21 @@ void ASpherePawn::FireLaser(const FInputActionValue& InputActionValue) {
 	FVector end = ((fv * distance) + start);
 
 	DrawDebugLine(GetWorld(), start, end, FColor::Red, false, 2.f, 0, 5.f);
+
+	GetWorld()->LineTraceSingleByChannel(hr, start, end, ECC_Visibility, cqp);
+
+	if (hr.bBlockingHit == true)
+	{
+		if (hr.GetActor() != this)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("HIT! %s"), *hr.GetActor()->GetName());
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::White, FString::Printf(TEXT("HIT! %s"), *hr.GetActor()->GetName()));
+			HitSomething(Cast<UStaticMeshComponent>(hr.GetActor()->GetRootComponent()));
+		}
+	}
+}
+
+void ASpherePawn::HitSomething_Implementation(class UStaticMeshComponent* meshThatWasHit)
+{
+	UE_LOG(LogTemp, Warning, TEXT("HIT SOMETHING CALLED"));
 }
