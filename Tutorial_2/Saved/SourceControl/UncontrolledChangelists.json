@@ -11,7 +11,9 @@
 				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_2/Content/IMC.uasset",
 				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_2/Content/BP_SphereController.uasset",
 				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_2/Content/Blueprints/SphereGameMode.uasset",
-				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_2/Content/BP_SpherePawn.uasset"
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_2/Content/BP_SpherePawn.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_2/Content/IA_Fire.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_2/Content/IA_FireLaser.uasset"
 			]
 		}
 	]

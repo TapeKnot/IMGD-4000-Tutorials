@@ -7,11 +7,13 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\belevy\Documents\GitHub\IMGD-4000-Tutorials\Tutorial_2\Intermediate\Build\Win64\x64\Tutorial_2Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\belevy\Documents\GitHub\IMGD-4000-Tutorials\Tutorial_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_2\ProjectileActor.gen.cpp.obj"
 "C:\Users\belevy\Documents\GitHub\IMGD-4000-Tutorials\Tutorial_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_2\SphereController.gen.cpp.obj"
 "C:\Users\belevy\Documents\GitHub\IMGD-4000-Tutorials\Tutorial_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_2\SpherePawn.gen.cpp.obj"
 "C:\Users\belevy\Documents\GitHub\IMGD-4000-Tutorials\Tutorial_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_2\Tutorial_2.init.gen.cpp.obj"
 "C:\Users\belevy\Documents\GitHub\IMGD-4000-Tutorials\Tutorial_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_2\Tutorial_2.cpp.obj"
 "C:\Users\belevy\Documents\GitHub\IMGD-4000-Tutorials\Tutorial_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_2\PerModuleInline.gen.cpp.obj"
+"C:\Users\belevy\Documents\GitHub\IMGD-4000-Tutorials\Tutorial_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_2\ProjectileActor.cpp.obj"
 "C:\Users\belevy\Documents\GitHub\IMGD-4000-Tutorials\Tutorial_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_2\SphereController.cpp.obj"
 "C:\Users\belevy\Documents\GitHub\IMGD-4000-Tutorials\Tutorial_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_2\SpherePawn.cpp.obj"
 "C:\Users\belevy\Documents\GitHub\IMGD-4000-Tutorials\Tutorial_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_2\Default.rc2.res"

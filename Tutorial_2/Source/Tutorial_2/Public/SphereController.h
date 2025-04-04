@@ -22,9 +22,17 @@ class TUTORIAL_2_API ASphereController : public APlayerController
 
 protected:
 	virtual void BeginPlay() override;
+	void Fire(const FInputActionValue& InputActionValue);
+	void FireLaser(const FInputActionValue& InputActionValue);
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Inputs")
 	UInputAction* MoveAction;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Inputs")
+	UInputAction* FireAction;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Inputs")
+	UInputAction* FireLaserAction;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Inputs")
 	UInputMappingContext* InputMappingContext;

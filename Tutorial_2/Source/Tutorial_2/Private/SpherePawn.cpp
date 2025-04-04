@@ -20,6 +20,7 @@ ASpherePawn::ASpherePawn()
 	Camera->SetRelativeLocation(FVector(-500.f, 0.f, 0.f));
 	Camera->SetupAttachment(Mesh);
 
+	ProjectileSpeed = 10.f;
 }
 
 // Called when the game starts or when spawned
@@ -64,4 +65,27 @@ void ASpherePawn::Move(const FInputActionValue& InputActionValue)
 		AddMovementInput(ForwardDirection, InputAxisVector.Y);
 		AddMovementInput(RightDirection, InputAxisVector.X);
 	}
+}
+
+void ASpherePawn::Fire(const FInputActionValue& InputActionValue) {
+	FVector loc = GetActorLocation();
+	loc.Z += 100.f;
+	loc.Y += 50.f;
+
+	AProjectileActor* a = GetWorld()->SpawnActor<AProjectileActor>(loc, GetActorRotation());
+
+	a->Speed = ProjectileSpeed;
+}
+
+void ASpherePawn::FireLaser(const FInputActionValue& InputActionValue) {
+	FVector start = GetActorLocation();
+	start.Z += 100.f;
+	start.Y += 50.f;
+	start.X += 150.f;
+
+	float distance = 1000.f;
+	FVector fv = GetActorForwardVector();
+	FVector end = ((fv * distance) + start);
+
+	DrawDebugLine(GetWorld(), start, end, FColor::Red, false, 2.f, 0, 5.f);
 }

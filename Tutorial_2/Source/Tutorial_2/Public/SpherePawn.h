@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include <GameFramework/FloatingPawnMovement.h>
+#include "ProjectileActor.h"
+#include "DrawDebugHelpers.h"
 #include "SpherePawn.generated.h"
 
 struct FInputActionValue;
@@ -25,6 +27,12 @@ public:
 	UPROPERTY(EditAnywhere) 
 	class UStaticMeshComponent* Mesh;
 	virtual void Move(const FInputActionValue& InputActionValue);
+
+	UPROPERTY(EditAnywhere)
+	float ProjectileSpeed;
+
+	void Fire(const FInputActionValue& InputActionValue);
+	void FireLaser(const FInputActionValue& InputActionValue);
 
 protected:
 	// Called when the game starts or when spawned

@@ -41,4 +41,26 @@ void ASphereController::SetupInputComponent()
 
 	//Bind the MoveAction to the Move method
 	EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &ASphereController::Move);
+	EnhancedInputComponent->BindAction(FireAction, ETriggerEvent::Triggered, this, &ASphereController::Fire);
+	EnhancedInputComponent->BindAction(FireLaserAction, ETriggerEvent::Triggered, this, &ASphereController::FireLaser);
+}
+
+void ASphereController::Fire(const FInputActionValue& InputActionValue)
+{
+	GEngine->AddOnScreenDebugMessage(0, 3.0f, FColor::Green, FString(TEXT("SphereController fire")));
+	if (ASpherePawn* ControlPawn = GetPawn<ASpherePawn>())
+	{
+		GEngine->AddOnScreenDebugMessage(0, 3.0f, FColor::Green, FString(ControlPawn->GetName()));
+		ControlPawn->Fire(InputActionValue);
+	}
+}
+
+void ASphereController::FireLaser(const FInputActionValue& InputActionValue)
+{
+	GEngine->AddOnScreenDebugMessage(0, 3.0f, FColor::Green, FString(TEXT("SphereController fire laser")));
+	if (ASpherePawn* ControlPawn = GetPawn<ASpherePawn>())
+	{
+		GEngine->AddOnScreenDebugMessage(0, 3.0f, FColor::Green, FString(ControlPawn->GetName()));
+		ControlPawn->FireLaser(InputActionValue);
+	}
 }
