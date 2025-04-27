@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_5\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorial_5\\uht\\tutorial_5gamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_5\\intermediate\\build\\win64\\x64\\tutorial_5editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorial_5\\definitions.tutorial_5.h",
+            "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_5\\source\\tutorial_5\\tutorial_5gamemode.h",
+            "c:\\program files\\epic games\\5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\5.5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_5\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorial_5\\uht\\tutorial_5gamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_5\\source\\tutorial_5\\tutorial_5.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_5\\intermediate\\build\\win64\\x64\\tutorial_5editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorial_5\\definitions.tutorial_5.h",
+            "c:\\users\\belevy\\documents\\github\\imgd-4000-tutorials\\tutorial_5\\source\\tutorial_5\\tutorial_5.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

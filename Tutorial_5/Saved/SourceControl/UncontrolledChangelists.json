@@ -1,0 +1,30 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MB/GDW4N7UQYYVGIQH1CTCXDO.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/1W/AWRL2UCC90RXKUBIAZNJU2.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/RG/5BKEEGPCUEFOKYWU23OUN3.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/OJ/BSXVU2SOSW9J6BSUYAONQL.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/6E/42ECPA33PWQ2PQNOIL2A3A.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/SC_Fire.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/SC_Smoke.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/SC_Steam.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/SC_Birds.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/Explosion01.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/SC_Explosion.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/SoundscapePalette.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/SoundAttenuation.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/Fire01.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/Smoke01.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/Starter_Birds01.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/Steam01.uasset",
+				"C:/Users/belevy/Documents/GitHub/IMGD-4000-Tutorials/Tutorial_5/Content/ThirdPerson/Maps/ThirdPersonMap.umap"
+			]
+		}
+	]
+}
