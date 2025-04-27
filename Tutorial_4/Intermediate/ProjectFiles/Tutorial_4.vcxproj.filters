@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Tutorial_4.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tutorial_4.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Tutorial_4Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Tutorial_4">
+      <UniqueIdentifier>{82955A4E-67BD-3ECB-A72D-08FFF053DB0A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tutorial_4\Tutorial_4.Build.cs">
+      <Filter>Source\Tutorial_4</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Tutorial_4\Tutorial_4.cpp">
+      <Filter>Source\Tutorial_4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tutorial_4\Tutorial_4.h">
+      <Filter>Source\Tutorial_4</Filter>
+    </ClCompile>
+    <Filter Include="Source\Tutorial_4\Private">
+      <UniqueIdentifier>{62799D20-C4A0-365F-BB1D-6EFB9CFAC819}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tutorial_4\Private\GUIGameModeBase.cpp">
+      <Filter>Source\Tutorial_4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tutorial_4\Private\SpherePawn.cpp">
+      <Filter>Source\Tutorial_4\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Tutorial_4\Public">
+      <UniqueIdentifier>{442E6A37-7043-3542-9922-15DBF3393E72}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tutorial_4\Public\GUIGameModeBase.h">
+      <Filter>Source\Tutorial_4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tutorial_4\Public\SpherePawn.h">
+      <Filter>Source\Tutorial_4\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

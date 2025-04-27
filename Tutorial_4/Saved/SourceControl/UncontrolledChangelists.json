@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/belevy/Documents/Unreal Projects/Tutorial_4/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/belevy/Documents/Unreal Projects/Tutorial_4/Content/Tutorial4.umap",
+				"C:/Users/belevy/Documents/Unreal Projects/Tutorial_4/Content/HeathHUD.uasset",
+				"C:/Users/belevy/Documents/Unreal Projects/Tutorial_4/Content/HealthHUD.uasset",
+				"C:/Users/belevy/Documents/Unreal Projects/Tutorial_4/Content/BP_GameMode.uasset"
+			]
+		}
+	]
+}

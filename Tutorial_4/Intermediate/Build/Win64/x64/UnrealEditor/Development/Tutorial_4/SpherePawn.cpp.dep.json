@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\belevy\\documents\\unreal projects\\tutorial_4\\source\\tutorial_4\\private\\spherepawn.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\belevy\\documents\\unreal projects\\tutorial_4\\intermediate\\build\\win64\\x64\\tutorial_4editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\belevy\\documents\\unreal projects\\tutorial_4\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorial_4\\definitions.tutorial_4.h",
+            "c:\\users\\belevy\\documents\\unreal projects\\tutorial_4\\source\\tutorial_4\\public\\spherepawn.h",
+            "c:\\users\\belevy\\documents\\unreal projects\\tutorial_4\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorial_4\\uht\\spherepawn.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

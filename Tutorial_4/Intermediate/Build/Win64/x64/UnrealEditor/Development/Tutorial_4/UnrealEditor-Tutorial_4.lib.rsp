@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Tutorial_4.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\belevy\Documents\Unreal Projects\Tutorial_4\Intermediate\Build\Win64\x64\Tutorial_4Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\belevy\Documents\Unreal Projects\Tutorial_4\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_4\GUIGameModeBase.gen.cpp.obj"
+"C:\Users\belevy\Documents\Unreal Projects\Tutorial_4\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_4\SpherePawn.gen.cpp.obj"
+"C:\Users\belevy\Documents\Unreal Projects\Tutorial_4\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_4\Tutorial_4.init.gen.cpp.obj"
+"C:\Users\belevy\Documents\Unreal Projects\Tutorial_4\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_4\Tutorial_4.cpp.obj"
+"C:\Users\belevy\Documents\Unreal Projects\Tutorial_4\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_4\GUIGameModeBase.cpp.obj"
+"C:\Users\belevy\Documents\Unreal Projects\Tutorial_4\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_4\SpherePawn.cpp.obj"
+"C:\Users\belevy\Documents\Unreal Projects\Tutorial_4\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_4\PerModuleInline.gen.cpp.obj"
+"C:\Users\belevy\Documents\Unreal Projects\Tutorial_4\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_4\Default.rc2.res"
+/OUT:"C:\Users\belevy\Documents\Unreal Projects\Tutorial_4\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_4\UnrealEditor-Tutorial_4.lib"
